@@ -1,0 +1,418 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Khmer UI", Arial;
+    font-size: 16px;
+}
+article{
+    width: 1170px;
+    margin: 0px auto;
+}
+.clear{
+    clear: both;
+}
+.flow{
+    float: left;
+}
+#head{
+    height: 126px;
+}
+.flow{
+    float: left;
+}
+.tel{
+    margin-right: 372px;
+    margin-top: 53px;
+}
+.logo{
+    margin-right: 300px;
+    margin-top: 41px;
+}
+.cart a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #b29f9f;
+}
+.cart a:hover{
+    color: black;
+}
+.cart{
+    margin-top: 57px;
+}
+.cart2{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 40px;
+    margin-left: 35px;
+    font-size: 22px;
+    margin-top: 43px;
+}
+.cart2 span{
+    text-decoration: none;
+    color: black;
+    margin: 8px auto;
+    display: block;
+}
+.price{
+    margin-left: 5px;
+    margin-top: 55px;
+}
+#navbar{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar li{
+    display: inline;
+}
+#navbar li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    letter-spacing: 5px;
+}
+#navbar li a:hover{
+    border: 1px solid black;
+    padding: 0px 29px;
+}
+.text{
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 217px;
+    float: left;
+}
+.button{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #b29f9f;
+    border: 1px solid #b29f9f;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    margin-top: 30px;
+    width: 155px;
+}
+.button:hover{
+    color: black;
+    border: 1px solid black;
+    transition: 1s;
+}
+.img{
+    height: 574px;
+}
+.image1{
+    padding-left: 72px;
+    padding-right: 20px;
+    overflow:hidden;
+    height: 567px;
+    float: left;
+}
+.image1 img{
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+.image1 img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.image2{
+    overflow:hidden;
+    height: 566px;
+}
+.image2 img{
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+.image2 img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+#second{
+    height: 700px;
+}
+.menu{
+    margin-top: 60px;
+}
+.menu1 img{
+    padding: 50px;
+}
+.menu1 img:hover{
+    border: 1px solid #b29f9f;
+    padding: 49px;
+}
+.menu a:first-child{
+    margin-left: 50px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 65px 0px 10px 0px;
+    font-weight: normal;
+    padding: 0;
+}
+.good .column .goods{
+    text-align: center;
+    width: 270px;
+    float: left;
+}
+.good .column .goods div{
+     color: #b29f9f;
+     font-size: 18px;
+     text-transform: uppercase;
+ }
+.good .column .goods p{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.good .column .goods:first-child{
+    margin-left: 45px;
+}
+.goods img{
+    cursor: pointer;
+}
+#third{
+    height: 530px;
+}
+.text3{
+    text-align: center;
+    width: 610px;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+.text3 div{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#slider{
+    width: 435px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 65px;
+}
+.inner{
+    width: 300%;
+}
+.inner:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.page{
+    float: left;
+    width: 33.33%;
+}
+.page img{
+    width: 435px;
+    height: 75px;
+}
+#overflow{
+    overflow: hidden;
+}
+#slider input{
+    display: none;
+}
+#controls{
+    position: absolute;
+    width: 132%;
+    top: 20px;
+    left: -70px;
+}
+#controls label{
+    display: none;
+    opacity: 0.4;
+    cursor: pointer;
+}
+#controls label:hover{
+    opacity: 1;
+}
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(1){
+    background: url("../img/Фигура 2.png");
+    width: 25px;
+    height: 42px;
+    float: right;
+    margin-right: -30px;
+    display: block;
+}
+
+#slide1:checked ~ #controls label:nth-child(3),
+#slide2:checked ~ #controls label:nth-child(1),
+#slide3:checked ~ #controls label:nth-child(2){
+    background: url("../img/Фигура 1.png");
+    width: 25px;
+    height: 42px;
+    float: left;
+    margin-left: -30px;
+    display: block;
+}
+#slide1:checked ~ #slides .inner {margin-left: 0}
+#slide2:checked ~ #slides .inner {margin-left: -100%}
+#slide3:checked ~ #slides .inner {margin-left: -200%}
+
+#active{
+    text-align: center;
+    margin-top: 15px;
+}
+#active label{
+    width: 5px;
+    height: 5px;
+    border: 1px solid #b29f9f;
+    display: inline-block;
+    cursor: pointer;
+}
+#active label:nth-child(2){
+    margin: 0px 15px;
+}
+#active label:hover{
+    border: 1px solid black;
+}
+#slide1:checked ~ #active label:nth-child(1),
+#slide2:checked ~ #active label:nth-child(2),
+#slide3:checked ~ #active label:nth-child(3){
+    border: 1px solid black;
+}
+.button2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #b29f9f;
+    border: 1px solid #b29f9f;
+    font-size: 16px;
+    padding: 10px 0px 10px 15px;
+    display: block;
+    width: 216px;
+    margin: 0px auto;
+}
+.button2:hover {
+    color: black;
+    border: 1px solid black;
+    transition: 1s;
+}
+footer{
+    background: url("../img/fon.jpeg") no-repeat center bottom;
+    width: 100%;
+    height: 228px;
+}
+.foot__box{
+    margin-left: 30px;
+    padding-top: 50px;
+}
+.logo2{
+    margin: 12px 65px -40px 0px;
+}
+nav{
+    padding: 0px 0px 40px 0px;
+}
+#menu1{
+    position:relative;
+    display:block;
+    width: 450px;
+    height:auto;
+    z-index:10;
+    left: 50%;
+    margin-left: -225px;
+}
+#menu1 ul{
+    position:relative;
+    display:block;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    height:auto;
+    list-style:none;
+}
+#menu1 > ul::after{
+    display:block;
+    width:100%;
+    height:0px;
+    clear:both;
+    content:" ";
+}
+#menu1 ul li{
+    position:relative;
+    display:block;
+    float:left;
+    width:auto;
+    height:auto;
+}
+#menu1 ul li a{
+    display:block;
+    padding:9px 25px 0px 25px;
+    font-size:14px;
+    color:black;
+    line-height:1.3em;
+    text-decoration:none;
+    text-transform:uppercase;
+    height:36px;
+    box-sizing:border-box;
+    letter-spacing: 5px;
+}
+#menu1 ul li ul{
+    position:absolute;
+    top:36px;
+    left:0px;
+    display:none;
+    width:200px;
+}
+#menu1 ul li:hover ul{display:block;}/*эта строчка реализует механизм выпадения*/
+#menu1 ul li ul li{
+    float:none;
+    width:100%;
+}
+#menu1 ul li ul li a{
+    color: #b29f9f;
+    display:block;
+    height:auto;
+    padding:7px 25px;
+    width:100%;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+#menu1 ul li ul li a:hover{
+    color: black;
+}
+#menu1 ul li ul li:first-child a{border-top:0px;}
+.contacts{
+    margin-top: -78px;
+    float: right;
+}
+.con{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.phone{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+input[type="text"]{
+    font-size: 10px;
+    font-family: "Khmer UI", Arial;
+}
+.enter{
+    float: right;
+    margin-top: -18px;
+    margin-right: -25px;
+}
+
+
