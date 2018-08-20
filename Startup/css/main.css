@@ -1,0 +1,700 @@
+/*Specification*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #555555;
+}
+ul,li{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+.d-flex{
+    display: flex;
+}
+h2{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 100px 0 30px 0;
+    opacity: 0;
+}
+h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+.title__line{
+    width: 2px;
+    height: 2px;
+    background: #555555;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+/*.......................................*/
+/*Header*/
+header{
+    background: url("../img/fon_1.jpg");
+    padding-top: 35px;
+    padding-bottom: 240px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+.menu__item{
+    margin: 6px 18px;
+}
+.menu__item a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #e2d9d8;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.menu__item a:hover{
+    text-shadow: -10px 10px 0px #00e6e6,
+    -20px 20px 0px #01cccc,
+    -30px 30px 0px #00bdbd;
+}
+.offer{
+    color: #fff;
+    text-align: center;
+    margin-top: 225px;
+}
+.offer__title{
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.offer__intro{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+button {
+    color: #fff;
+    cursor: pointer;
+    font-size:16px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 175px;
+    padding: 20px 0px;
+    background: none;
+    border: 0;
+    margin: 0 auto;
+}
+.offer__btn{
+    border: 3px solid #fff;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.offer__btn:hover{
+
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+.title__text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+/*.......................................*/
+/*Section Services*/
+.service{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.service__title{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.service__text{
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+.service__icon_1{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background:  #c0301c;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.service__icon_1 i{
+    color: #fff;
+    font-size: 45px;
+    padding-top: 16px;
+}
+.service__icon{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 1px solid #dfdfdf;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.service__icon i{
+    font-size: 45px;
+    color: #c0301c;
+    padding-top: 19px;
+}
+.service__icon_1:hover{
+    background:  #fff;
+}
+.service__icon_1:hover i{
+    color:  #c0301c;
+}
+.service__icon:hover{
+    background:  #c0301c;
+}
+.service__icon:hover i{
+    color:  #fff;
+}
+
+/*.......................................*/
+/*Section About*/
+#about{
+    background: #f8f8f8;
+}
+.about__text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    padding-bottom: 70px;
+}
+.slider{
+    margin-bottom: 100px;
+}
+.your-class i:first-child{
+    color: #fff;
+    border: 1px solid #8b8b8b;
+    background: #8b8b8b;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    margin: 0 auto;
+    top: 110px;
+    z-index: 20;
+    cursor: pointer;
+    padding: 5px 0px 0px 10px;
+    transition: all 0.5s ease;
+}
+.your-class i:last-child{
+    color: #fff;
+    border: 1px solid #8b8b8b;
+    background: #8b8b8b;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 1067px;
+    margin: 0 auto;
+    top: 110px;
+    cursor: pointer;
+    padding: 5px 0px 0px 12px;
+    transition: all 0.5s ease;
+}
+.your-class i:hover{
+    border: 1px solid #c0301c;
+    background: #c0301c;
+    color: #a6a6a6;
+}
+.slick-slide{
+    outline: none;
+}
+.slider img{
+    cursor: pointer;
+}
+.slider h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+.slider p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+}
+.social{
+    width: 263px;
+    height: 250px;
+    background: #a6a6a6;
+    position: absolute;
+    bottom: 78px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.social:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.social:hover .social__icon{
+    opacity: 1;
+}
+.social__icon{
+    margin-top: 200px;
+    opacity: 1; !important;
+}
+.social__box{
+    width: 28px;
+    height: 28px;
+    background: #c0301c;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.social__box{
+    margin: 0px 5px 0px 5px;
+}
+.social__facebook{
+    opacity: 1;
+    width: 9px;
+    height: 16px;
+    position: absolute;
+    bottom: 28px;
+    left: 69px;
+}
+.social__twitter{
+    opacity: 1;
+    width: 17px;
+    height: 14px;
+    position: absolute;
+    bottom: 28px;
+    left: 103px;
+}
+.social__google{
+    opacity: 1;
+    width: 17px;
+    height: 16px;
+    position: absolute;
+    bottom: 28px;
+    left: 142px;
+}
+.social__linkedid{
+    opacity: 1;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    bottom: 28px;
+    left: 181px;
+}
+
+/*.......................................*/
+/*Section Works*/
+.works{
+    margin-bottom: 80px;
+}
+.menu-2{
+    padding-bottom: 60px;
+}
+.menu-2__item{
+
+}
+.menu-2__item a{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    color: #555555;
+    margin: 0px 25px 0px 25px;
+}
+.menu-2__item a:hover{
+    color: #c0301c;
+}
+.works__img{
+    margin-bottom: 20px;
+}
+.works__box{
+    position: absolute;
+    width: 360px;
+    height: 320px;
+    background: #d36e60;
+    opacity: 0;
+    left: 15px;
+    top: 0px;
+}
+.works__box:hover{
+    opacity: 0.8;
+    transition: all 0.5s ease;
+}
+.works__main{
+    position: absolute;
+    top: 105px;
+    opacity: 0;
+    text-align: center;
+    left: 120px;
+}
+.works__main h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.works__main p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    color: #fff;
+}
+.works__btn{
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    padding-top: 9px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.works__btn p{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    color: #c0301c;
+    padding-right: 10px;
+}
+.works__btn i{
+    color: #c0301c;
+    font-size: 20px;
+}
+.works__img:hover .works__main{
+    opacity: 1;
+}
+#call{
+    background: url("../img/Rectangle_14.jpeg");
+    width: 100%;
+    height: 369px;
+    z-index: 10;
+}
+.call__title{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+.call__title span{
+    text-transform: uppercase;
+}
+.call__btn{
+    cursor: pointer;
+    width: 175px;
+    padding: 10px 0px;
+    background: none;
+    margin: 0 auto;
+    border: 3px solid #fff;
+}
+.call__btn p{
+    font-size:18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+.call__btn:hover{
+    background: #fff;
+}
+.call__btn:hover > .call__btn-text{
+    color: #c0301c;
+}
+#blog{
+    padding-bottom: 100px;
+}
+.blog__line{
+    width: 100%;
+    height: 2px;
+    background: #dddddd;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.blog__block{
+    margin-left: 25px;
+}
+.blog__data{
+    width: 75px;
+    height: 75px;
+    border: 2px solid #555555;
+    display: inline-block;
+    margin: 0px 25px 25px 0px;
+    text-align: center;
+}
+.blog__data p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #777777;
+    margin: -5px;
+    padding-top: 14px;
+}
+.blog__data span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #777777;
+}
+.blog__title{
+    display: inline-block;
+}
+.blog__title h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.blog__title p{
+    font-size: 13px;
+    font-family: "Roboto Slab";
+    font-style: italic;
+    padding-top: 10px;
+}
+.blog__title p span:hover{
+    color: #c0301c;
+    cursor: pointer;
+}
+.blog__content p{
+    font-size: 14px;
+    font-family: "Roboto Slab";
+    padding-bottom: 10px;
+}
+.blog__content a{
+    font-size: 13px;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    text-decoration: none;
+    color: #777777;
+    text-transform: uppercase;
+}
+.blog__content a:hover{
+    color: #c0301c;
+}
+.blog__title h4:hover{
+    color: #c0301c;
+    cursor: pointer;
+}
+.clients{
+    padding-top: 100px;
+    background: #f8f8f8;
+    padding-bottom: 100px;
+}
+.clients__logo{
+    margin-bottom: 65px;
+}
+.clients__text{
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+    width: 760px;
+    margin: 0 auto;
+}
+.clients__intro{
+    font-size: 18px;
+    font-style: italic;
+}
+.clients__info{
+    font-size: 20px;
+    padding-top: 36px;
+    padding-bottom: 25px;
+}
+.slick-dots li button{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    background: #dddddd;
+    transition: all 0.5s ease;
+}
+.slick-dots li button:before {
+    content: '';
+}
+.slick-dots li button:hover{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    border: 1px solid #c0301c;
+    background: #c0301c;
+}
+.fa-map-marker,
+.fa-envelope-o{
+    font-size: 20px;
+}
+.fa-mobile-phone{
+    font-size: 30px;
+}
+.touch__contact-text{
+    padding-left: 20px;
+}
+.touch__contact-text h5{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.touch{
+    padding-bottom: 100px;
+}
+.touch__contact-text p{
+    font-family: "Roboto Slab";
+    font-size: 12px;
+}
+.touch__contact-email p:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.touch__contact-hotline{
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.touch__contact-hotline .touch__contact-text{
+    padding-top: 8px;
+}
+.touch__contact-address .touch__contact-text,
+.touch__contact-email .touch__contact-text{
+    padding-top: 4px;
+}
+.touch__btn{
+    cursor: pointer;
+    width: 175px;
+    padding: 10px 0px;
+    background: none;
+    margin: 0 auto;
+    border: 1px solid #555555;
+}
+.touch__btn p{
+    font-size:18px;
+    font-weight: 400;
+    color: #555555;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+.touch__btn:hover{
+    background: #c0301c;
+    border: 1px solid #c0301c;
+}
+.touch__btn:hover > .touch__btn-text{
+    color: #fff;
+}
+
+#footer{
+    background: #c0301c;
+    height: 300px;
+    width: 100%;
+}
+input{
+    font-size: 12px;
+    font-family: "Roboto Slab";
+    text-transform: uppercase;
+    padding: 10px;
+}
+input:focus,
+input:active{
+    border: 1px solid #c0301c;
+    outline: none;
+}
+.form__name input,
+.form__email input{
+    width: 335px;
+    margin-bottom: 22px;
+}
+.form__subject input,
+.form__company input{
+    width: 335px;
+    margin-bottom: 22px;
+}
+.form__message input{
+    width: 700px;
+    height: 100px;
+    margin-bottom: 22px;
+    padding-bottom: 70px;
+}
+.touch__btn{
+    margin-left: 0px;
+}
+.touch__text{
+    font-size: 12px;
+    font-family: "Roboto Slab";
+    margin-left: -150px;
+    margin-top: 15px;
+}
+.touch__text span{
+    color: #c0301c;
+}
+.footer__line{
+    width: 50px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.footer__main{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto Slab";
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer__social{
+    margin-top: 100px;
+}
+.footer__contact{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.footer__social .footer__contact:nth-child(2){
+    margin: 0 10px 0 10px;
+}
+.footer__social .footer__contact:nth-child(3){
+    margin: 0 10px 0 0px;
+}
+.footer__contact i{
+    color: #ffffff;
+    margin: 5px 0 0 6px;
+}
+.footer__contact:hover{
+    background: white;
+}
+.twitter:hover i{
+    color: #c0301c;
+}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+:focus::-moz-placeholder {
+    color: transparent
+}
+:focus:-moz-placeholder {
+    color: transparent
+}
+:focus:-ms-input-placeholder {
+    color: transparent
+}
