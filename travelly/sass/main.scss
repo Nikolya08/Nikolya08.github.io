@@ -1,0 +1,214 @@
+@import "smart-grid";
+@include reset();
+
+body{
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+  @include wrapper();
+}
+.container{
+  @include lg(margin-left, 20px);
+  @include lg(margin-right, 20px);
+}
+.d-flex{
+  display: flex;
+}
+ul, li{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.row{
+  @include row-flex;
+}
+div, span, a, p, input, form, button{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5{
+  color: #323232;
+}
+p{
+  color: #8b8b8b;
+  line-height: 1.6em;
+}
+.header{
+  background: url("../img/first-bg.jpg") no-repeat center top;
+  padding-top: 50px;
+  padding-bottom: 204px;
+  color: #fff;
+}
+.row{
+  justify-content: space-between;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.logo{
+  @include col;
+  @include size(2);
+  display: block;
+  width: 147px;
+}
+.hamburger{
+  @include col;
+  @include size(1);
+  width: 24px;
+  cursor: pointer;
+}
+.hamburger span{
+  background: #fff;
+  display: block;
+  height: 2px;
+  margin-bottom: 5px;
+}
+.offer{
+  margin-top: 170px;
+  &__title{
+    font-size: 52px;
+    font-weight: 300;
+    color: #fff;
+    @include sm(font-size, 40px);
+    @include xs(font-size, 25px);
+  }
+}
+.offer__form{
+  display: flex;
+  margin-top: 25px;
+  @include xs(flex-direction, column);
+  & input{
+    background: #fff;
+    border: 0;
+    display: block;
+    width: 328px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    @include xs(width, auto);
+  }
+  & button{
+    background: #fd4f32;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 125px;
+    padding: 10px 0px;
+    cursor: pointer;
+    border: none;
+    @include xs(width, auto);
+  }
+}
+.destination{
+  background: #eeeeee;
+  padding: 48px 0px 67px 0px;
+}
+.section-title{
+  @include col;
+  @include size(12);
+  &__heading{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  &__text{
+    font-size: 15px;
+  }
+}
+.route{
+  @include col;
+  @include size(3);
+  @include size-sm(6);
+  @include size-xs(12);
+  background: #fff;
+  border-bottom: 2px solid #e1e0d8;
+  margin-top: 35px;
+  &__photo{
+    position: relative;
+  }
+  &__img{
+    display: block;
+    width: 100%;
+  }
+  &__price{
+    position: absolute;
+    font-size: 13px;
+    color: #fff;
+    bottom: 14px;
+    right: 19px;
+  }
+  &__title{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 14px 20px 0px 20px;;
+    font-weight: 700;
+  }
+  &__desc{
+    font-size: 13px;
+    margin: 8px 20px 10px 20px;
+  }
+}
+.details{
+  padding: 48px 0px 67px 0px;
+}
+.section-title__heading__bigger{
+  font-size: 52px;
+  text-transform: none;
+  font-weight: 300;
+  @include xs(font-size, 30px);
+}
+.detail{
+  @include col;
+  @include size(4);
+  @include size-sm(6);
+  @include size-xs(12);
+  margin-top: 45px;
+  &__title{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  &__text{
+    font-size: 15px;
+  }
+}
+.footer{
+  background: #eeeeee;
+  padding: 24px 0px;
+}
+.credits{
+  @include col;
+  @include size(6);
+  @include size-xs(12);
+  font-size: 14px;
+  font-weight: 300;
+  color: #a9a9a9;
+}
+.menu{
+  @include col;
+  @include size(4);
+  @include size-xs(12);
+  justify-content: flex-end;
+  @include xs(flex-direction, column);
+  &__item{
+    margin-left: 19px;
+    @include xs(text-align, center);
+    @include xs(margin-top, 20px);
+    @include xs(margin-left, 0px);
+    @include sm(margin-left, 8px);
+    & a{
+      text-decoration: none;
+      color: #000;
+      font-size: 14px;
+      text-transform: uppercase;
+      @include sm(font-size, 12px);
+    }
+  }
+}
+.footer .container > .row{
+  @include xs(flex-direction, column);
+}
