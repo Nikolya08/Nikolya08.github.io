@@ -1,0 +1,68 @@
+.menu {
+  text-align: right;
+  display: none;
+}
+.menu__icon {
+  display: none;
+  width: 30px;
+  height: 35px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 10;
+  span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #D2021D;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+}
+.menu__icon span:nth-child(1) {
+  top: 0px;
+}
+.menu__icon span:nth-child(2),
+.menu__icon span:nth-child(3) {
+  top: 10px;
+}
+.menu__icon span:nth-child(4) {
+  top: 20px;
+}
+.menu__links-item {
+  display: inline-block;
+  color: #16141A;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 0 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menu__links-item:hover {
+  text-decoration: underline;
+}
+.menu.menu_state_open .menu__icon span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+.menu.menu_state_open .menu__icon span:nth-child(2) {
+  transform: rotate(45deg);
+}
+.menu.menu_state_open  .menu__icon span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+.menu.menu_state_open  .menu__icon span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+.menu.menu_state_open .menu__links {
+  display: block;
+}
