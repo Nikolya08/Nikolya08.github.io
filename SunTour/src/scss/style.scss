@@ -1,0 +1,546 @@
+$font-family: 'Arial';
+$color: #000000;
+
+body{
+  color: $color;
+  font-family: $font-family, sans-serif;
+}
+ul, li{
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.d-flex{
+  display: flex;
+}
+
+//Description Header
+header{
+  width: 100%;
+  height: 104px;
+  background: #00BFF3;
+  align-items: center;
+}
+.logo{
+  align-items: center;
+  .logo-text{
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 22px;
+    padding-top: 6px;
+  }
+}
+.phone{
+  align-items: center;
+  justify-content: flex-end;
+  color: #ffffff;
+  .phone-number{
+    font-size: 30px;
+  }
+  .phone-text{
+    font-size: 16px;
+    margin-left: 26px;
+    a{
+      color: #ffffff;
+    }
+  }
+}
+.social{
+  justify-content: flex-end;
+  .social-icon{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-left: 10px;
+    .facebook{
+      background: url("../img/icons8-facebook-f-31.png") no-repeat center center;
+      width: 30px;
+      height: 30px;
+      background-size: contain;
+      transition: all 0.5s ease;
+    }
+    .google{
+      background: url("../img/icons8-google-old-25.png") no-repeat center center;
+      width: 24px;
+      height: 24px;
+      background-size: contain;
+      transition: all 0.5s ease;
+    }
+    .instagram{
+      background: url("../img/icons8-instagram-old-32 (1).png") no-repeat center center;
+      width: 32px;
+      height: 32px;
+      background-size: contain;
+      transition: all 0.5s ease;
+    }
+  }
+  .social-icon:hover{
+    .facebook{
+      background: url("../img/icons8-facebook-f-30.png") no-repeat center center;
+    }
+    .google{
+      background: url("../img/icons8-google-old-24.png") no-repeat center center;
+    }
+    .instagram{
+      background: url("../img/icons8-instagram-old-32.png") no-repeat center center;
+    }
+  }
+}
+
+//Description section one
+#one{
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+  padding-bottom: 55px;
+}
+.tour{
+  position: relative;
+  .tour-image{
+    width: 100%;
+    height: auto;
+    z-index: 10;
+  }
+  .tour-circle{
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: rgba(255, 242, 0, 0.7);
+    z-index: 1;
+    bottom: 32px;
+    left: 32px;
+    h3{
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 25px;
+      text-align: center;
+      margin: 0;
+    }
+    p{
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 14px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    span{
+      display: block;
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      width: 108px;
+      height: 31px;
+      background: #000000;
+      margin: 0 auto;
+    }
+  }
+}
+
+//Rating
+.stars{
+  margin-top: 23px;
+}
+.stars-rating{
+  text-align: center;
+  padding: 0px;
+  span:first-child{
+    a{
+      color: #000000;
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-weight: 700;
+      font-size: 35px;
+      text-decoration: none;
+    }
+    .underline{
+      width: 293px;
+      height: 0px;
+      opacity: 0.25;
+      border: 1px solid #000000;
+    }
+    a:hover + .underline{
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  }
+  span:last-child{
+    padding-left: 40px;
+    font-family: Trebuchet MS, sans-serif;
+    line-height: normal;
+    font-weight: 700;
+    font-size: 35px;
+  }
+}
+.rating{
+  width: 100px;
+  float: left;
+  text-align: center;
+  padding: 11px 0px 0px 20px;
+}
+.unit-rating {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 20px;
+  position: relative;
+  background: url("../img/icons8-christmas-star-filled-51.png") repeat-x 0 0;
+  background-size: contain;
+  li{
+    text-indent: -9999em;
+    padding: 0;
+    margin: 0;
+    float: left;
+    a{
+      display: block;
+      text-decoration: none;
+      z-index: 17;
+      position: absolute;
+      padding: 0;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+li.current-rating {
+  background: url("../img/icons8-christmas-star-filled-50.png") 0 0;
+  position: absolute;
+  background-size: contain;
+  height: 20px;
+  display: block;
+  text-indent: -9999em;
+  z-index: 1;
+}
+.unit-rating:hover .current-rating{
+  overflow: hidden;
+  opacity: 0;
+}
+.unit-rating li a:hover{
+  left: 0;
+  background: url("../img/icons8-christmas-star-filled-50.png")repeat-x 0 0;
+  cursor: pointer;
+  background-size: contain;
+  z-index: 2;
+}
+.r1-unit{left: 0;}
+.r1-unit:hover{width: 20px;}
+.r2-unit{left: 20px;}
+.r2-unit:hover{width: 40px;}
+.r3-unit{left: 40px;}
+.r3-unit:hover{width: 60px;}
+.r4-unit{left: 60px;}
+.r4-unit:hover{width: 80px;}
+.r5-unit{left: 80px;}
+.r5-unit:hover{width: 100px;}
+////////////////////////////////////
+
+.marks{
+  margin-top: 30px;
+  ul{
+    li{
+      p{
+        margin-bottom: 0px;
+        margin-top: 10px;
+        text-transform: uppercase;
+        line-height: normal;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+      }
+      span{
+        line-height: normal;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+    li:first-child{
+      p{
+        line-height: normal;
+        font-size: 14px;
+        text-transform: none;
+      }
+      span{
+        font-weight: 700;
+        line-height: normal;
+        font-size: 14px;
+        text-transform: none;
+      }
+    }
+    li:nth-child(2){
+      width: 52px;
+      height: 52px;
+      background: #00BFF3;
+      margin: 0px 24px 0px 35px;
+      p{
+        font-family: Trebuchet MS, sans-serif;
+        line-height: normal;
+        font-size: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 10px;
+      }
+    }
+    li:nth-child(4),
+    li:nth-child(6){
+      margin: 0px 16px 0px 16px;
+    }
+  }
+}
+.days{
+  width: 160px;
+  margin: -20px auto;
+  p{
+    font-family: Trebuchet MS, sans-serif;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 88px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #777777;
+    padding: 0;
+    margin: 0px 0px -15px 0px;
+  }
+  span{
+    line-height: 31px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: normal;
+    text-transform: none;
+    padding-top: 0;
+    margin: 0;
+  }
+}
+
+//Description section two
+#two{
+  width: 100%;
+  height: auto;
+}
+.extrim{
+  img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 24px;
+  }
+  .extrim-title{
+    justify-content: space-between;
+    h2{
+      margin: 0px;
+      padding: 0px;
+      cursor: pointer;
+      a{
+        font-family: Trebuchet MS, sans-serif;
+        line-height: normal;
+        font-size: 35px;
+        color: #000000;
+        text-decoration: none;
+        transition: all 0.5s ease;
+      }
+      .underline{
+        width: 262px;
+        height: 0px;
+        opacity: 0.25;
+        border: 1px solid #000000;
+        transition: all 0.5s ease;
+      }
+    }
+    h2 a:hover{
+      color: #CB0000;
+    }
+    h2:hover .underline{
+      border: 1px solid #CB0000;
+      opacity: 1;
+    }
+    p{
+      margin: 0px;
+      padding: 0px;
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 35px;
+    }
+  }
+  .extrim-text{
+    justify-content: space-between;
+    p{
+      line-height: 19px;
+      font-size: 14px;
+    }
+    span{
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 20px;
+      color: #777777;
+      margin-top: 10px;
+      text-decoration: line-through;
+      text-decoration-color: #CB0000;
+    }
+  }
+}
+
+//Description section three
+#three{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  padding-bottom: 44px;
+}
+.title{
+  font-family: Trebuchet MS, sans-serif;
+  line-height: 52px;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+.text{
+  line-height: 19px;
+  font-size: 14px;
+  font-family: $font-family;
+  padding-right: 20px;
+  h5{
+    line-height: 19px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  h3{
+    line-height: normal;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  h4{
+    line-height: normal;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  p{
+    margin-top: 0px;
+    padding-top: 8px;
+  }
+  .text-box{
+    border-left: 8px solid #00BFF3;
+    margin-left: 50px;
+    p{
+      font-style: italic;
+      margin-left: 16px;
+      padding: 10px 0px 10px 0px;
+    }
+  }
+
+  table{
+    margin-bottom: 25px;
+    margin-top: 35px;
+    font-size: 14px;
+    th{
+      width: 200px;
+      text-align: left;
+    }
+    td{
+      width: 200px;
+      text-align: left;
+    }
+    tr{
+      height: 36px;
+    }
+    tr:first-child{
+      background: rgba(119, 119, 119, 0.2);
+    }
+    th:first-child{
+      padding-left: 10px;
+    }
+  }
+
+  ul{
+    display: list-item;
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 10px;
+    li{
+      display: list-item;
+      padding-top: 5px;
+    }
+  }
+  ul.listing > li:before {
+    content: "\2014\a0";
+    letter-spacing: 2px;
+  }
+}
+p.last{
+  margin: 0;
+  padding: 0;
+}
+.right-box{
+  h2{
+    font-family: Trebuchet MS, sans-serif;
+    line-height: normal;
+    font-size: 100px;
+    letter-spacing: -0.05em;
+    color: #777777;
+    margin: 151px 0px 5px 0px;
+    text-align: center;
+  }
+  p{
+    line-height: 31px;
+    font-size: 30px;
+    margin: 5px 0px 5px 0px;
+  }
+  span{
+    line-height: 25px;
+    font-size: 20px;
+    color: #777777;
+    margin-top: 10px;
+  }
+}
+
+#footer{
+  width: 100%;
+  height: auto;
+}
+.line{
+  width: 100%;
+  border: 1px solid #777777;
+}
+.footer-box{
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  p{
+    padding: 0;
+    margin: 0;
+  }
+  .social{
+    .social-icon{
+      background: #00BFF3;
+      .facebook{
+        background: url("../img/icons8-facebook-f-32.png") no-repeat center center;
+      }
+      .google{
+        background: url("../img/icons8-google-old-26.png") no-repeat center center;
+      }
+      .instagram{
+        background: url("../img/icons8-instagram-old-33.png") no-repeat center center;
+      }
+    }
+    .social-icon:hover{
+      .facebook{
+        background: url("../img/icons8-facebook-f-30.png") no-repeat center center;
+      }
+      .google{
+        background: url("../img/icons8-google-old-24.png") no-repeat center center;
+      }
+      .instagram{
+        background: url("../img/icons8-instagram-old-32.png") no-repeat center center;
+      }
+    }
+  }
+}

@@ -1,0 +1,504 @@
+body {
+  color: #000000;
+  font-family: "Arial", sans-serif; }
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  display: block; }
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+header {
+  width: 100%;
+  height: 104px;
+  background: #00BFF3;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.logo {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .logo .logo-text {
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 22px;
+    padding-top: 6px; }
+
+.phone {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: #ffffff; }
+  .phone .phone-number {
+    font-size: 30px; }
+  .phone .phone-text {
+    font-size: 16px;
+    margin-left: 26px; }
+    .phone .phone-text a {
+      color: #ffffff; }
+
+.social {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+  .social .social-icon {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-left: 10px; }
+    .social .social-icon .facebook {
+      background: url("../img/icons8-facebook-f-31.png") no-repeat center center;
+      width: 30px;
+      height: 30px;
+      background-size: contain;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+    .social .social-icon .google {
+      background: url("../img/icons8-google-old-25.png") no-repeat center center;
+      width: 24px;
+      height: 24px;
+      background-size: contain;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+    .social .social-icon .instagram {
+      background: url("../img/icons8-instagram-old-32 (1).png") no-repeat center center;
+      width: 32px;
+      height: 32px;
+      background-size: contain;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+  .social .social-icon:hover .facebook {
+    background: url("../img/icons8-facebook-f-30.png") no-repeat center center; }
+  .social .social-icon:hover .google {
+    background: url("../img/icons8-google-old-24.png") no-repeat center center; }
+  .social .social-icon:hover .instagram {
+    background: url("../img/icons8-instagram-old-32.png") no-repeat center center; }
+
+#one {
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
+  padding-bottom: 55px; }
+
+.tour {
+  position: relative; }
+  .tour .tour-image {
+    width: 100%;
+    height: auto;
+    z-index: 10; }
+  .tour .tour-circle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: rgba(255, 242, 0, 0.7);
+    z-index: 1;
+    bottom: 32px;
+    left: 32px; }
+    .tour .tour-circle h3 {
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 25px;
+      text-align: center;
+      margin: 0; }
+    .tour .tour-circle p {
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 14px;
+      text-align: center;
+      text-transform: uppercase; }
+    .tour .tour-circle span {
+      display: block;
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      width: 108px;
+      height: 31px;
+      background: #000000;
+      margin: 0 auto; }
+
+.stars {
+  margin-top: 23px; }
+
+.stars-rating {
+  text-align: center;
+  padding: 0px; }
+  .stars-rating span:first-child a {
+    color: #000000;
+    font-family: Trebuchet MS, sans-serif;
+    line-height: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: none; }
+  .stars-rating span:first-child .underline {
+    width: 293px;
+    height: 0px;
+    opacity: 0.25;
+    border: 1px solid #000000; }
+  .stars-rating span:first-child a:hover + .underline {
+    opacity: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  .stars-rating span:last-child {
+    padding-left: 40px;
+    font-family: Trebuchet MS, sans-serif;
+    line-height: normal;
+    font-weight: 700;
+    font-size: 35px; }
+
+.rating {
+  width: 100px;
+  float: left;
+  text-align: center;
+  padding: 11px 0px 0px 20px; }
+
+.unit-rating {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 20px;
+  position: relative;
+  background: url("../img/icons8-christmas-star-filled-51.png") repeat-x 0 0;
+  background-size: contain; }
+  .unit-rating li {
+    text-indent: -9999em;
+    padding: 0;
+    margin: 0;
+    float: left; }
+    .unit-rating li a {
+      display: block;
+      text-decoration: none;
+      z-index: 17;
+      position: absolute;
+      padding: 0;
+      width: 20px;
+      height: 20px; }
+
+li.current-rating {
+  background: url("../img/icons8-christmas-star-filled-50.png") 0 0;
+  position: absolute;
+  background-size: contain;
+  height: 20px;
+  display: block;
+  text-indent: -9999em;
+  z-index: 1; }
+
+.unit-rating:hover .current-rating {
+  overflow: hidden;
+  opacity: 0; }
+
+.unit-rating li a:hover {
+  left: 0;
+  background: url("../img/icons8-christmas-star-filled-50.png") repeat-x 0 0;
+  cursor: pointer;
+  background-size: contain;
+  z-index: 2; }
+
+.r1-unit {
+  left: 0; }
+
+.r1-unit:hover {
+  width: 20px; }
+
+.r2-unit {
+  left: 20px; }
+
+.r2-unit:hover {
+  width: 40px; }
+
+.r3-unit {
+  left: 40px; }
+
+.r3-unit:hover {
+  width: 60px; }
+
+.r4-unit {
+  left: 60px; }
+
+.r4-unit:hover {
+  width: 80px; }
+
+.r5-unit {
+  left: 80px; }
+
+.r5-unit:hover {
+  width: 100px; }
+
+.marks {
+  margin-top: 30px; }
+  .marks ul li p {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    line-height: normal;
+    font-size: 12px;
+    letter-spacing: 0.05em; }
+  .marks ul li span {
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .marks ul li:first-child p {
+    line-height: normal;
+    font-size: 14px;
+    text-transform: none; }
+  .marks ul li:first-child span {
+    font-weight: 700;
+    line-height: normal;
+    font-size: 14px;
+    text-transform: none; }
+  .marks ul li:nth-child(2) {
+    width: 52px;
+    height: 52px;
+    background: #00BFF3;
+    margin: 0px 24px 0px 35px; }
+    .marks ul li:nth-child(2) p {
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 24px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-top: 10px; }
+  .marks ul li:nth-child(4),
+  .marks ul li:nth-child(6) {
+    margin: 0px 16px 0px 16px; }
+
+.days {
+  width: 160px;
+  margin: -20px auto; }
+  .days p {
+    font-family: Trebuchet MS, sans-serif;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 88px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #777777;
+    padding: 0;
+    margin: 0px 0px -15px 0px; }
+  .days span {
+    line-height: 31px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: normal;
+    text-transform: none;
+    padding-top: 0;
+    margin: 0; }
+
+#two {
+  width: 100%;
+  height: auto; }
+
+.extrim img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 24px; }
+
+.extrim .extrim-title {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .extrim .extrim-title h2 {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer; }
+    .extrim .extrim-title h2 a {
+      font-family: Trebuchet MS, sans-serif;
+      line-height: normal;
+      font-size: 35px;
+      color: #000000;
+      text-decoration: none;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+    .extrim .extrim-title h2 .underline {
+      width: 262px;
+      height: 0px;
+      opacity: 0.25;
+      border: 1px solid #000000;
+      -webkit-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
+  .extrim .extrim-title h2 a:hover {
+    color: #CB0000; }
+  .extrim .extrim-title h2:hover .underline {
+    border: 1px solid #CB0000;
+    opacity: 1; }
+  .extrim .extrim-title p {
+    margin: 0px;
+    padding: 0px;
+    font-family: Trebuchet MS, sans-serif;
+    line-height: normal;
+    font-size: 35px; }
+
+.extrim .extrim-text {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .extrim .extrim-text p {
+    line-height: 19px;
+    font-size: 14px; }
+  .extrim .extrim-text span {
+    font-family: Trebuchet MS, sans-serif;
+    line-height: normal;
+    font-size: 20px;
+    color: #777777;
+    margin-top: 10px;
+    text-decoration: line-through;
+    -webkit-text-decoration-color: #CB0000;
+    text-decoration-color: #CB0000; }
+
+#three {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  padding-bottom: 44px; }
+
+.title {
+  font-family: Trebuchet MS, sans-serif;
+  line-height: 52px;
+  font-size: 50px;
+  margin-bottom: 0px; }
+
+.text {
+  line-height: 19px;
+  font-size: 14px;
+  font-family: "Arial";
+  padding-right: 20px; }
+  .text h5 {
+    line-height: 19px;
+    font-size: 14px;
+    margin-bottom: 10px; }
+  .text h3 {
+    line-height: normal;
+    font-size: 22px;
+    margin-bottom: 5px; }
+  .text h4 {
+    line-height: normal;
+    font-size: 16px;
+    margin-bottom: 5px; }
+  .text p {
+    margin-top: 0px;
+    padding-top: 8px; }
+  .text .text-box {
+    border-left: 8px solid #00BFF3;
+    margin-left: 50px; }
+    .text .text-box p {
+      font-style: italic;
+      margin-left: 16px;
+      padding: 10px 0px 10px 0px; }
+  .text table {
+    margin-bottom: 25px;
+    margin-top: 35px;
+    font-size: 14px; }
+    .text table th {
+      width: 200px;
+      text-align: left; }
+    .text table td {
+      width: 200px;
+      text-align: left; }
+    .text table tr {
+      height: 36px; }
+    .text table tr:first-child {
+      background: rgba(119, 119, 119, 0.2); }
+    .text table th:first-child {
+      padding-left: 10px; }
+  .text ul {
+    display: list-item;
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 10px; }
+    .text ul li {
+      display: list-item;
+      padding-top: 5px; }
+  .text ul.listing > li:before {
+    content: "\2014\a0";
+    letter-spacing: 2px; }
+
+p.last {
+  margin: 0;
+  padding: 0; }
+
+.right-box h2 {
+  font-family: Trebuchet MS, sans-serif;
+  line-height: normal;
+  font-size: 100px;
+  letter-spacing: -0.05em;
+  color: #777777;
+  margin: 151px 0px 5px 0px;
+  text-align: center; }
+
+.right-box p {
+  line-height: 31px;
+  font-size: 30px;
+  margin: 5px 0px 5px 0px; }
+
+.right-box span {
+  line-height: 25px;
+  font-size: 20px;
+  color: #777777;
+  margin-top: 10px; }
+
+#footer {
+  width: 100%;
+  height: auto; }
+
+.line {
+  width: 100%;
+  border: 1px solid #777777; }
+
+.footer-box {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 0px; }
+  .footer-box p {
+    padding: 0;
+    margin: 0; }
+  .footer-box .social .social-icon {
+    background: #00BFF3; }
+    .footer-box .social .social-icon .facebook {
+      background: url("../img/icons8-facebook-f-32.png") no-repeat center center; }
+    .footer-box .social .social-icon .google {
+      background: url("../img/icons8-google-old-26.png") no-repeat center center; }
+    .footer-box .social .social-icon .instagram {
+      background: url("../img/icons8-instagram-old-33.png") no-repeat center center; }
+  .footer-box .social .social-icon:hover .facebook {
+    background: url("../img/icons8-facebook-f-30.png") no-repeat center center; }
+  .footer-box .social .social-icon:hover .google {
+    background: url("../img/icons8-google-old-24.png") no-repeat center center; }
+  .footer-box .social .social-icon:hover .instagram {
+    background: url("../img/icons8-instagram-old-32.png") no-repeat center center; }

@@ -1,0 +1,129 @@
+@media screen and (max-width: 991px){
+  .logo {
+    justify-content: center;
+  }
+  .days {
+    margin: 0px auto;
+    padding-left: 20px;
+  }
+  .days span {
+    font-size: 25px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .logo {
+    justify-content: center;
+  }
+  header {
+    height: 160px;
+  }
+  .phone .phone-number {
+    font-size: 20px;
+  }
+  .phone {
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  .social {
+    justify-content: center;
+  }
+  .tour .tour-circle {
+    bottom: 10px;
+    left: 10px;
+  }
+  .days p {
+    text-align: center;
+    font-size: 65px;
+  }
+  #one {
+    padding-bottom: 15px;
+  }
+  .right-box{
+    display: none;
+  }
+  .footer-box {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .logo .logo-text {
+    font-size: 11px;
+  }
+  img {
+    width: 140px;
+  }
+  .tour .tour-circle {
+    width: 100px;
+    height: 100px;
+  }
+  .tour .tour-circle h3 {
+    font-size: 10px;
+  }
+  .tour .tour-circle p {
+    font-size: 10px;
+  }
+  .tour .tour-circle span {
+    font-size: 12px;
+    width: 60px;
+    height: 15px;
+  }
+  .stars-rating {
+    flex-direction: column;
+  }
+  .stars-rating span:first-child .underline {
+    margin: 0 auto;
+  }
+  .rating-layer-315{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .marks ul{
+    flex-direction: column;
+    align-items: end;
+    padding-left: 45%;
+  }
+  .marks ul li:nth-child(2) {
+    margin: 0px;
+  }
+  .marks ul li:nth-child(4), .marks ul li:nth-child(6) {
+    margin: 0px;
+  }
+  .marks {
+    margin-top: 0px;
+  }
+  .days {
+    padding-left: 0px;
+    display: flex;
+  }
+  .days p {
+    font-size: 50px;
+  }
+  .days span {
+    font-size: 15px;
+  }
+  .extrim .extrim-title h2 a {
+    font-size: 20px;
+  }
+  .extrim .extrim-title p {
+    font-size: 20px;
+  }
+  .extrim .extrim-title h2 .underline {
+    width: 155px;
+  }
+  .title {
+    line-height: normal;
+    font-size: 25px;
+  }
+  .text table {
+    display: none;
+  }
+  .footer-box {
+    align-items: center;
+  }
+  .copi{
+    text-align: center;
+  }
+}
