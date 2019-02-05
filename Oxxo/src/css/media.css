@@ -1,0 +1,197 @@
+@media screen and (max-width: 1200px) {
+  .main-menu__left li:nth-child(3),
+  .main-menu__right li:nth-child(3) {
+    margin-right: 9px; }
+  .main-menu__left li:nth-child(2),
+  .main-menu__right li:nth-child(2) {
+    margin: 0px 9px; }
+  img {
+    width: 100%; }
+  .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .logos img {
+      width: 100%; }
+  .responsive-content__icon {
+    margin: 0px 0px; }
+  .responsive-content__text {
+    padding-left: 20px; }
+  .bottom-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .bottom-nav li:nth-child(2) {
+    margin: 0px 0px; }
+  .bottom-text {
+    margin: 40px 0px 0px 10px; }
+  .bottom-nav {
+    margin-top: 0px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .footer-form input {
+    width: 100%; }
+  .submit {
+    margin: 25px 0px 0px 95px; }
+  .services-line {
+    width: 100%; }
+  .slider-content2 {
+    width: auto; } }
+
+@media screen and (max-width: 991px) {
+  .main-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .logo {
+    margin: 0px 0px 0px 0px; }
+  .about__btn button {
+    margin-right: 0px; }
+  #about {
+    padding: 30px 0px; }
+  .box-header {
+    margin-bottom: 40px; }
+  .amazing-content {
+    margin-bottom: 10px; }
+  #team {
+    padding-top: 10px; }
+  .members p {
+    font-size: 12px; }
+  #work {
+    padding-top: 10px; }
+  .box__button {
+    width: 210px;
+    height: 101px;
+    margin-top: 28px; }
+  .portfolio-review__button ul {
+    margin-top: 55px; }
+  .box-header {
+    margin-bottom: 0px; }
+  .buy-content {
+    width: auto; }
+  .slider2 {
+    width: auto; }
+  #responsive {
+    height: auto;
+    padding-top: 10px; }
+    #responsive img {
+      padding-bottom: 20px; }
+  #footer {
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 25px; }
+  .bottom-nav {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .bottom-text {
+    margin: 25px 0px 0px 10px; } }
+
+@media all and (max-width: 767px) {
+  .slider-content2__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .slider-content2__btn button {
+    margin-bottom: 0px; }
+  .slider-content2__btn button:nth-child(2) {
+    margin: 20px 0px; }
+  .slider {
+    margin: 100px auto; }
+  .slider-content2 {
+    left: 50%;
+    margin-left: -190px;
+    top: 82%; }
+  .slider-content2 p {
+    margin-top: 10px; }
+  #amazing {
+    padding-top: 10px; }
+  .box__button {
+    width: 370px;
+    height: 157px;
+    margin-top: 0px; }
+  .portfolio-review__button ul {
+    margin-top: 0px; }
+  #clients-logo {
+    height: auto; }
+  .logos {
+    margin-top: 0px; }
+  .bottom-text {
+    margin: 10px 0px 0px 10px; }
+  .comments {
+    display: none; } }
+
+@media screen and (max-width: 575px) {
+  .main-menu ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+  .main-menu__left li:nth-child(2),
+  .main-menu__right li:nth-child(2) {
+    margin: 0px 0px; }
+  .slider-text__title {
+    font-size: 30px; }
+  .slider {
+    margin: 10px auto; }
+  .slider-content2 p {
+    font-size: 10px; }
+  .box-header {
+    width: auto; }
+  .about__slider {
+    height: 200px; }
+  .about__btn button {
+    margin-top: 20px; }
+  .box-header h1 {
+    font-size: 16px; }
+  .amazing-content__text h3 {
+    font-size: 12px;
+    margin-bottom: 5px; }
+  .amazing-content__text p {
+    font-size: 10px; }
+  .box__button {
+    width: 290px;
+    height: 129px;
+    margin-top: 14px; }
+  #buy {
+    padding-top: 10px; }
+  #clients {
+    padding-top: 10px; }
+  .responsive-content p {
+    font-size: 12px; }
+  .responsive-content__icon i {
+    font-size: 17px;
+    margin-top: 8px; }
+  .responsive-content__icon {
+    width: 50px;
+    height: 30px; }
+  .slider-content2__btn button {
+    margin-top: 20px; }
+  .slider-content2 {
+    left: 50%;
+    margin-left: -120px; } }
