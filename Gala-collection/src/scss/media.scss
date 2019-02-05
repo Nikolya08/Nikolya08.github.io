@@ -1,0 +1,311 @@
+@media screen and (min-width: 1600px){
+  .navigation{
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px){
+  .offer-box .offer-box_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .offer-box .offer-box_img {
+    width: auto;
+  }
+  .paper-box {
+    width: auto;
+  }
+  .paper-box img {
+    width: 100%;
+    height: auto;
+  }
+  #footer .footer-image {
+    display: none;
+  }
+  #footer{
+    justify-content: space-around;
+  }
+  .carousel-inner{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .carousel-item .d-block .comment_box p {
+    line-height: 20px;
+  }
+  .comment_box{
+    width: 300px;
+  }
+  .carousel-item {
+    margin-right: 0%;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .menu {
+    padding-top: 0;
+  }
+  .menu .head-menu li {
+    margin-left: 6px;
+  }
+  .menu .head-menu li a {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .head-title .title span {
+    font-size: 20px;
+  }
+  .offer-box .offer-box_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .offer-box .offer-box_img {
+    width: auto;
+  }
+  .offer-box .offer-box_content .offer-box_text p {
+    font-size: 16px;
+  }
+  .work_box .work_box-text p {
+    font-size: 14px;
+  }
+  #messageName, #messageTel, #messageEmail {
+    margin-bottom: 0px;
+  }
+  .advice-form{
+    form{
+      height: auto;
+      flex-direction: column;
+    }
+  }
+  .advice-form h2 {
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+  #advice {
+    padding-top: 60px;
+  }
+  .carousel-item .d-block .comment_box p {
+    line-height: 13px;
+    font-size: 13px;
+  }
+  .comment_box{
+    width: 200px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 25%;
+  }
+  .rating-box p {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  h2 {
+    font-size: 20px;
+  }
+  .navigation{
+    display: none;
+  }
+  .logo{
+    text-align: center;
+    a{
+      img {
+        width: auto;
+      }
+    }
+  }
+  .menu{
+    justify-content: center;
+    .head-menu{
+      flex-direction: column;
+    }
+  }
+  .menu .head-menu li a {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .head-title .title {
+    margin-top: 30px;
+  }
+  .head-title{
+    .title{
+      h1{
+        font-size: 45px;
+      }
+      p{
+        font-size: 40px;
+      }
+      span{
+        font-size: 16px;
+      }
+    }
+  }
+  .offer-menu ul li a {
+    font-size: 14px;
+  }
+  .offer-box .offer-box_content .offer-box_text h5 {
+    font-size: 14px;
+    margin: 10px 0px;
+    width: max-content;
+  }
+  .offer-box .offer-box_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantage-box .advantage-box_item .advantage-box_title h5 {
+    font-size: 10px;
+  }
+  .work_box .work_box-text p {
+    font-size: 12px;
+  }
+  .work_box .work_box-text h5 {
+    font-size: 14px;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 27%;
+  }
+  #rating {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    h2{
+      padding-top: 20px;
+    }
+  }
+  .rating-box {
+    margin-top: 0px;
+  }
+  .mail-box p {
+    padding-bottom: 0px;
+  }
+  #contact {
+    padding-top: 0px;
+  }
+  #contact h2 {
+    margin-bottom: 10px;
+  }
+  #map {
+    margin-top: 80px;
+  }
+  .contact-box .contact-box_content .contact-box_text{
+    h4{
+      font-size: 14px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+  #footer #footer-form {
+    margin-top: 10px;
+    width: 215px;
+  }
+  #footer #footer-form div {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 575px){
+  .logo a img {
+    margin-bottom: 20px;
+  }
+  .menu .head-menu li a {
+    font-size: 20px;
+  }
+  .head-title{
+    .title{
+      h1{
+        font-size: 35px;
+      }
+      p{
+        font-size: 30px;
+      }
+      span{
+        font-size: 12px;
+      }
+    }
+  }
+  .head-title .header-btn {
+    margin-bottom: 50px;
+  }
+  .offer-menu{
+    ul{
+      flex-direction: column;
+    }
+  }
+  .offer-menu .offer-menu__box {
+    display: none;
+  }
+  .offer-menu ul li:nth-child(2) {
+    margin: 0px 0px;
+  }
+  .special-box {
+    margin-top: 0px;
+  }
+  .special-box .special-box_title {
+    width: 100%;
+  }
+  .special-box .special-box_text {
+    width: 100%;
+  }
+  .white-line {
+    width: 100%;
+  }
+  .special-box .special-box_text p {
+    font-size: 10px;
+  }
+  .special-box .special-box_title h4 {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .special-btn a {
+    font-size: 10px;
+  }
+  #special {
+    height: auto;
+  }
+  .advantage-box{
+    flex-direction: column;
+  }
+  .advantage-box .advantage-box_item .advantage-box_title h5 {
+    font-size: 16px;
+  }
+  #work {
+    height: auto;
+  }
+  .work_box>img {
+    display: none;
+  }
+  #comment{
+    display: none;
+  }
+  .mail-box p {
+    font-size: 18px;
+  }
+  #mail {
+    padding-top: 20px;
+  }
+  #contact h2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  #map {
+    margin-top: 20px;
+  }
+  #footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer .footer-info {
+    padding: 10px 0px;
+  }
+  #footer-form{
+    margin-bottom: 20px;
+  }
+  .mail-box input[type="email"] {
+    width: auto;
+  }
+  .special-box {
+    width: 100%;
+  }
+}
