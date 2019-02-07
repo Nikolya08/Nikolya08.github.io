@@ -148,6 +148,8 @@
     margin-bottom: 10px; }
   h2 {
     font-size: 30px; }
+  #skills {
+    background-attachment: inherit; }
   .skills__line {
     width: 75px;
     margin-left: 218px;
@@ -337,8 +339,23 @@
     margin: 0 auto;
     height: 2px;
     margin-bottom: 10px; }
+  .software__title {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .software {
+    height: 100px; }
   .software {
     margin: 5px auto; }
+  .software:hover .skills-1, .software:hover .skills-2,
+  .software:hover .skills-3, .software:hover .skills-4,
+  .software:hover .software__title {
+    font-size: 16px;
+    margin-top: 2px; }
+  .software__text {
+    margin-bottom: 5px; }
+  .skills-4, .skills-5, .skills-6 {
+    margin: 0 10px 0 35px; }
   #works {
     height: 100%;
     padding-top: 20px; }
