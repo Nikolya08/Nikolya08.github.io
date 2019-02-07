@@ -201,7 +201,7 @@
     left: 80px;
   }
   #works {
-    height: 610px;
+    height: auto;
   }
   .footer__contacts {
     font-size: 16px;
@@ -292,6 +292,9 @@
   }
   .software__text {
     margin-bottom: 15px;
+  }
+  #works {
+    height: auto;
   }
   .works__title {
     text-align: center;
